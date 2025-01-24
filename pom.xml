@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com</groupId>
+  <artifactId>SrikanthAutomationMavenProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  <!-- poi to read excel-->
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi</artifactId>
+           <version>5.3.0</version>
+       </dependency>
+
+       <!-- poi-ooxml to read excel data-->
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml</artifactId>
+           <version>5.3.0</version>
+       </dependency>
+
+       <!-- pdfbox to read pdf files-->
+       <dependency>
+           <groupId>org.apache.pdfbox</groupId>
+           <artifactId>pdfbox</artifactId>
+           <version>3.0.3</version>
+       </dependency>
+
+       <!-- postgresql jdbc for reading data from database -->
+       <dependency>
+           <groupId>org.postgresql</groupId>
+           <artifactId>postgresql</artifactId>
+           <version>42.7.4</version>
+       </dependency>
+
+       <!-- commons-io for file operations-->
+       <dependency>
+           <groupId>commons-io</groupId>
+           <artifactId>commons-io</artifactId>
+           <version>2.17.0</version>
+       </dependency>
+       </dependencies>
+  
+</project>
